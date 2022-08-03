@@ -1,5 +1,5 @@
 %%
-
+%noisy audio
 [signal,fs]=audioread('noisy.wav');
 L = length(signal);
 signalT = fft(signal);
